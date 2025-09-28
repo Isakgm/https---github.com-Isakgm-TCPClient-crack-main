@@ -5,14 +5,14 @@ import threading
 # slags konstanter
 serverName = 'localhost'
 serverPort = 7
-
+#Hej
 pf = []
 count = 0
 
 def create_chunks():
     chunks = []
     words = []
-    
+     
     #åbner 
     with open("webster-dictionary.txt", "r", encoding="utf-8") as dictionary:
         #for hver linje i filen tilføjer jeg ordet til listen word
